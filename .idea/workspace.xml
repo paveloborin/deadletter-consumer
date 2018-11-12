@@ -2,105 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05b3e660-9352-45f6-b111-8be448cff3be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deadletter-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/consumer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/flags/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/services/consumer/consumer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/arg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/check_crosscompile.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/closest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/command.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/completion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/convert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/flags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/group.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/help.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/ini.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/man.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/multitag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/option.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/optstyle_other.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/optstyle_windows.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/parser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/termsize.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/termsize_nosysioctl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/tiocgwinsz_bsdish.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/tiocgwinsz_linux.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/jessevdk/go-flags/tiocgwinsz_other.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/console.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/ctx.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/encoder.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/encoder_cbor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/encoder_json.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/event.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/fields.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/globals.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/hook.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/cbor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/decode_stream.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/cbor/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/json/base.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/json/bytes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/json/string.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/json/time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/internal/json/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/log/log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/pretty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/sampler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/syslog.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/rs/zerolog/writer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/allocator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/certs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/channel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/confirms.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/connection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/consumers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/delivery.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/fuzz.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/gen.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/read.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/return.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/spec091.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/uri.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/streadway/amqp/write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,44 +15,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="-90">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/consumer/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1065">
               <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-              <folding>
-                <element signature="e#14#401#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="30">
-                <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+                <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -156,8 +72,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/flags/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -165,11 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/services/consumer/consumer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="916">
+            <state relative-caret-position="855">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#18#161#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -179,9 +110,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>l</find>
+      <find>xsolla</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pkg</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
@@ -196,14 +129,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/pkg/services/consumer/consumer.go" />
         <option value="$PROJECT_DIR$/cmd/consumer/main.go" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/pkg/flags/config.go" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -213,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,68 +162,12 @@
             <path>
               <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
               <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="flags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deadletter-consumer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deadletter-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="streadway" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,28 +198,27 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,50 +234,16 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/pkg/services/consumer/consumer.go</url>
           <line>2</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/flags/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pkg/services/consumer/consumer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#18#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/consumer/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1065">
           <caret line="83" column="32" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#401#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,11 +251,63 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
-            <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/services/consumer/consumer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/flags/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
