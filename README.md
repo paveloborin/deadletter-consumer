@@ -1,1 +1,3 @@
 # deadletter-consumer
+
+make run
