@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  consumer:
+    container_name: consumer
+    image: consumer:latest
+    ports:
+      - "8000:8000"
+    networks:
+      - backend
+    depends_on:
+      - rabbit
+
+  rabbit:
+    container_name: rabbbit
+    image: rabbitmq:3.7.8-management
+    ports:
+      - "15672:15672"
+    networks:
+      - backend
+
+networks:
+  backend:
